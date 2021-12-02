@@ -422,16 +422,16 @@ var waktoo = date.getHours();
 				var ucapannya = `Night 🌚 ${pushname}`
 				}
        	 if(time2 < "19:00:00"){
-     		   var ucapannya = `Night 🌚 ${pushname}`
+     		   var ucapannya = `MalamTod 🌚 ${pushname}`
 				}
      	   if(time2 < "18:00:00"){
-     		   var ucapannya = `Afternoon 🌅 ${pushname}`
+     		   var ucapannya = `SoreTod 🌅 ${pushname}`
 				}
       	  if(time2 < "15:00:00"){
-     		   var ucapannya = `GoodDay 🌞 ${pushname}`
+     		   var ucapannya = `SiangTod 🌞 ${pushname}`
 				}
     	    if(time2 < "11:00:00"){
-       		 var ucapannya = `Morning 🌄 ${pushname}`
+       		 var ucapannya = `PagiTod 🌄 ${pushname}`
 				}
     	    if(time2 < "05:00:00"){
   		      var ucapannya = `Night 🌚 ${pushname}`
@@ -441,8 +441,9 @@ var waktoo = date.getHours();
 					limit: 'Limit kamu habis lord , Silahkan beli dengan #buylimit <nominal> atau minta gift dari user lain',
 					sewabot: ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
 
-•> 25k / BULAN (PREMIUM)
-Isi sendiri
+    *PROMO*
+•> 10K / PERMANEN
+
 
 Minat? Pm wa.me/${owner_number}`,
 					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
